@@ -1,0 +1,101 @@
+
+
+.Container-Gold-1 {
+  padding: 20px;
+  align-items: center;
+}
+
+.Gold-col-1{
+height: 100px;
+width: 100%;
+justify-content: space-around;
+}
+
+/* sort section */
+
+.Gold-col{
+display: flex;
+}
+
+.sort-selection {
+margin-right: auto;
+}
+
+.filter-search {
+margin-left: auto; 
+}
+
+/*Filtering using colors section*/
+
+.filter-all-btn{
+cursor: pointer;
+border: none;
+color: grey;
+font-family: sans-serif;
+font-size: 1.2rem;
+background-color: white;
+display: flex;
+text-align: left;
+}
+
+.filter-all-btn:hover{
+text-decoration: underline;
+color: rgb(3, 3, 3);
+}
+
+
+.Gold-option{
+padding-bottom: 1rem;
+}
+
+.Gold-row1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Card {
+  margin: 20px;
+  max-width: 345px;
+}
+
+.CardMedia {
+  height: 140px;
+  object-fit: cover; 
+}
+
+.CardContent {
+  text-align: center;
+  max-width: 100%;
+  min-height: 46px;
+}
+
+.CardActions {
+  display: flex;
+  justify-content: center;
+}
+
+.Button {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.Button:hover {
+  background-color: #6b2329;;
+}
+
+.CardActions .Button {
+  margin: 10px;
+}
+
+
+
+ @media (max-width: 768px) {
+  .Card {
+    flex-basis: calc(33.33% - 20px);
+  }
+}
+
+
+
+
+

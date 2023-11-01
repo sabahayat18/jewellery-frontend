@@ -1,0 +1,29 @@
+
+.card {
+    max-width: 345px;
+    margin: 0 auto;
+}
+
+.mycard-link Link{
+    text-decoration: none;
+}
+
+
+@media (max-width: 768px) {
+    .card {
+        width: 100%; 
+    }
+    .card .MuiCardMedia-root {
+        height: auto; 
+    }
+    .card .MuiCardContent-root {
+        padding: 16px; 
+    }
+}
+
+
+@media (max-width: 576px) {
+    .card {
+        max-width: 100%; 
+    }
+}

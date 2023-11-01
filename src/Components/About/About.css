@@ -1,0 +1,68 @@
+/* About us */
+
+.heading1 {
+    color: rgb(73, 39, 14);
+    text-align: center;
+    padding-top: 25px;
+    font-family: 'sans-serif';
+}
+
+.paragraph {
+    padding-top: 50px;
+    font-family: cursive;
+    font-size: 18px;
+    font-family: 'sans-serif';
+}
+
+
+
+/* The brand Story */
+
+.content-image-container {
+    display: flex;
+    align-items: center;
+}
+
+.content {
+    padding: 20px;
+}
+
+.content h3 {
+    font-size: 1.125rem;
+    margin-top: 18px;
+}
+
+.content p {
+    margin-top: 14px;
+    font-size: 1rem;
+    line-height: 1.75rem;
+    margin-bottom: 2.5rem;
+    font-weight: 300;
+}
+
+.image img {
+    width: 102%;
+    height: auto;
+}
+
+.col1-About {
+    background-color: #f7e3e3;
+}
+
+.col2-about {
+    justify-content: space-between
+}
+
+
+.Container {
+    padding: 20px;
+}
+
+
+.brand-story {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: #653131;
+    margin-top: 6px;
+     font-family: 'sans-serif';
+}

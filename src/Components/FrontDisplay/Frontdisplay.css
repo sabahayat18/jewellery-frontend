@@ -1,0 +1,38 @@
+
+.col1{
+    text-align: center;
+    font-family: 'sans-serif';
+}
+.col2{
+    text-align: center;
+    font-family: ' sans-serif';
+}
+.col3{
+    text-align: center;
+    font-family: ' sans-serif';
+}
+.col4{
+    text-align: center;
+    font-family: 'sans-serif';
+}
+.col5{
+    text-align: center;
+    font-family: 'sans-serif';
+} 
+
+
+@media (max-width: 768px) {
+    .col1, .col2, .col3, .col4, .col5 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+

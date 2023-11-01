@@ -1,0 +1,62 @@
+.logReg-container {
+    min-Height: 900px;
+    display: flex;
+    justify-content: center;
+    padding-top: 2.2rem;
+}
+
+.logReg-container h2 {
+    justify-content: center;
+    display: flex;
+}
+
+
+.form-div {
+    min-height: 600px;
+    min-width: 550px;
+    padding: 2px;
+    border-radius: 20px;
+    /* background-color: #f9e5e5;s */
+    color: #632020;
+    box-shadow: -30px 10px 10px -10px rgba(99, 61, 61, 0.43),
+                30px 10px 10px -10px rgba(84, 45, 45, 0.43),
+                10px -10px 40px -10px rgba(209, 139, 139, 0.43),
+                -10px -10px 40px -10px rgba(209, 139, 139, 0.43);
+}
+
+.form-div img {
+        height: 50px;
+        padding-left: 11rem;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+}
+
+.textfield {
+    width: 20rem;
+}
+
+.login-div {
+    text-align: center;
+}
+
+.login-div p{
+    font-size: 1.2rem;
+}
+
+.login-div button {
+    width: 7rem;
+    height: 3rem;
+    border-radius: 20px;
+}
+
+.mt-5{
+    background-color:#632020;
+    border: none;
+    border-radius: 20px;
+}
+.mt-5:hover{
+    background-color: rgb(236, 135, 135);
+}
+.navlink{
+    padding: 18px;
+}
